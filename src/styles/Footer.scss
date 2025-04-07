@@ -1,0 +1,42 @@
+.footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+  
+    .footer-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #FACC15;
+    }
+  
+    .footer-link {
+      color: #9CA3AF;
+      text-decoration: none;
+      font-weight: 500;
+  
+      &:hover {
+        color: #FACC15; // Bootstrap's "info" color
+      }
+    }
+
+    .footer-text {
+        color: #9CA3AF; // Light gray for better contrast
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+  
+    i {
+      font-size: 1.5rem;
+      color: #f8f9fa;
+  
+      &:hover {
+        color: #FACC15;
+      }
+    }
+  }
+  

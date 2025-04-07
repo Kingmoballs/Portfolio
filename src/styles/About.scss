@@ -1,0 +1,34 @@
+.about-section {
+    background-color: #111827; // Dark theme
+    color: #f3f4f6; // Light text for contrast
+    padding: 60px 0;
+  
+    .text-highlight {
+      color: #FACC15; // Highlighted color
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    h2, h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+  
+    li {
+      font-size: 1.1rem;
+      margin: 8px 0;
+    }
+  }
+  

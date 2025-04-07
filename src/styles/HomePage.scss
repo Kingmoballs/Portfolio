@@ -1,0 +1,31 @@
+// HomePage Styles
+.home {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.lead {
+    color: #FACC15; // "Hello" text color
+  }
+  
+  h1.text-primary {
+    color: #F3F4F6 !important; // Override Bootstrap primary color
+  }
+
+  .about-me {
+    text-decoration: none;
+  }
+  
+  .btn-success {
+    background-color: #FACC15 !important;
+    border-color: #FACC15 !important;
+    color: #212529 !important;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  
+    &:hover {
+      background-color: darken(#FACC15, 10%) !important; // Slightly darker shade on hover
+    }
+  }
+  

@@ -1,0 +1,27 @@
+.navbar {
+    background: #020617; // Dark background
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #FACC15 !important; // Ensures it's visible
+      transition: color 0.3s ease-in-out;
+  
+      
+    }
+  
+    .nav-link {
+      font-size: 1rem;
+      color: #9CA3AF !important;
+      transition: color 0.3s ease-in-out;
+  
+      &:hover {
+        color: #FACC15 !important; // Changes on hover
+      }
+    }
+  
+    .navbar-toggler {
+      border: none; // Remove border from the toggler button
+    }
+  }
+  
