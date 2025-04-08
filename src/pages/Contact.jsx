@@ -53,7 +53,7 @@ export default function Contact() {
         <div className="row justify-content-center mt-5">
           <div className="col-md-8">
           <form action="https://formsubmit.co/mobolajiadebola@yahoo.com" method="POST">
-            <input type="hidden" name="_next" value="http://localhost:3001/thank-you" />
+            <input type="hidden" name="_next" value="https://mobportfolio.netlify.app/thank-you" />
             <input type="hidden" name="_captcha" value="false" />
 
             <div className="mb-3">
