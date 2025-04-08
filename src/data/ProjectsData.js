@@ -49,7 +49,7 @@ const projectsData = [
     ],
     image: vanlifeImg,
     images: [vanlifeImg, vanlifeImg1, vanlifeImg2, vanlifeImg3],
-    technologies: ["React", "Bootstrap"],
+    technologies: ["React", "Bootstrap", "SCSS"],
     githubLink: "https://github.com/Kingmoballs/vanLife",
     liveDemo: "https://bookvan.netlify.app",
   },
