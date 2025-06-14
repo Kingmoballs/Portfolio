@@ -12,6 +12,11 @@ import vanlifeImg2 from "../assets/vanlife-img2.png";
 import vanlifeImg3 from "../assets/vanlife-img3.png";
 import quizzicleImg from "../assets/quiz-img.png";
 import quizzicleImg1 from "../assets/quiz-img1.png";
+import blogImg1 from "../assets/blog-img.png"; 
+import blogImg2 from "../assets/blog-img2.png";
+import blogImg3 from "../assets/blog-img3.png";
+import blogImg4 from "../assets/blog-img4.png";
+import blogImg5 from "../assets/blog-img5.png";
 
 const projectsData = [
   {
@@ -71,6 +76,27 @@ const projectsData = [
     technologies: ["React", "API Integration"],
     githubLink: "https://github.com/Kingmoballs/quizzical-react",
     liveDemo: "https://mob-quizzical.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Blog Management App",
+    shortDescription: "A full-stack blog platform with authentication and post management.",
+    description: [
+      "A MERN-stack blog application that allows authenticated users to create, view, edit, and delete blog posts with full backend support.",
+      "Key Features:",
+      [
+        "User authentication with JWT and secure HttpOnly cookie storage.",
+        "Role-based access control to allow post editing/deletion only by authors.",
+        "Post CRUD operations backed by a MongoDB database via Express.js API.",
+        "Styled frontend using React, Bootstrap, and SCSS for a smooth user experience.",
+        "Frontend and backend fully integrated using Axios and Express routes."
+      ]
+    ],
+    image: blogImg3,
+    images: [blogImg1, blogImg2, blogImg3, blogImg4, blogImg5],
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "SCSS", "Bootstrap"],
+    githubLink: "https://github.com/Kingmoballs/express-blog-api",
+    liveDemo: "https://mobblog.netlify.app",
   }
 ];
 

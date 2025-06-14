@@ -4,6 +4,7 @@ import projectsData from "../data/ProjectsData";
 import distriserveImg from "../assets/distriserve-img.png"; // Add real images
 import vanlifeImg from "../assets/vanlife-img.png";
 import quizzicleImg from "../assets/quiz-img.png";
+import blogImg from "../assets/blog-img4.png";
 import "../styles/Project.scss"; // Custom styles
 
 export default function Project() {
@@ -31,6 +32,10 @@ export default function Project() {
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100 img" src={quizzicleImg} alt="Quizzicle Project" />
+            
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100 img" src={blogImg} alt="Blog Project" />
             
           </Carousel.Item>
         </Carousel>
